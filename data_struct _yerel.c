@@ -52,7 +52,7 @@ void pop(int* top)
 	}
 	else
 	{
-		printf("\n Yýðýn zaten boþ bir þey yapamazsýn...");
+		printf("\n YÃ½Ã°Ã½n zaten boÃ¾ bir Ã¾ey yapamazsÃ½n...");
 	}
 }
 
@@ -61,7 +61,7 @@ int peek(int top, int stack[STACKLIMIT])
 	int kontrol = checkEmpty(top);
 	if (kontrol == 1)
 	{
-		printf("\n Burada bir eþya yok...");
+		printf("\n Burada bir eÃ¾ya yok...");
 		return 0;
 	}
 	return stack[top];
